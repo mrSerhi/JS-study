@@ -84,3 +84,37 @@ var fity = Object.create(protoCat, {
 //fity.catAge = fity.calculateAge(); // fity.catAge is read-only!!!
 //fity.weight = 2; // read only , not change...
 fity.age = fity.calculateAge(); 
+
+//primitives
+var first = 10;
+var second = first; // 10
+first = 20; // 20
+// objcts
+var objFirst = {
+    name: 'Pipo',
+    age: 26,
+    city: 'Bueno-saires'
+}
+var objTwo = objFirst; //referens to objFirst
+objFirst.age = 30;
+objTwo.age = 45; // change the two objects
+console.log(objTwo); // this.age = 45
+console.log(objFirst); // this.age = 45
+
+// function with primitivs and object
+var newVar = 100;
+var tratataObject = {
+    age: 27,
+    country: 'Israel'
+};
+
+function change(a, b) {
+    a && b ? b.country = 'Ukraine' : null;
+    a = a || 30;
+    return a / 2;
+   
+}
+change(newVar, tratataObject);
+console.log(newVar); // 100
+console.log(tratataObject.country); // ukraine
+console.log(change()); // 15
