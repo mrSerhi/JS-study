@@ -58,3 +58,29 @@ vika.sortBrandOfCars();
 console.log(lida);
 console.log(kirill);
 console.log(vika);
+
+// another wey to creation the Objects
+
+// the creating methods like in the prototype .__proto__
+var protoCat = {
+    calculateAge: function() {
+        return (2018 - this.yearOfBorn) * 2;
+    }
+};
+
+var barsik = Object.create(protoCat); // empty object with .__proto__
+barsik.yearOfBorn = 2012;
+barsik.name = 'Barsik';
+barsik.weight = 4;
+barsik.catAge = barsik.calculateAge();
+
+// all properties is read-only. That dosn't changes
+var fity = Object.create(protoCat, {
+    name: { value: 'Fity' },
+    yearOfBorn: { value: 2008 },
+    weight: { value: 6 },
+    catAge: { value: null }
+});
+//fity.catAge = fity.calculateAge(); // fity.catAge is read-only!!!
+//fity.weight = 2; // read only , not change...
+fity.age = fity.calculateAge(); 
