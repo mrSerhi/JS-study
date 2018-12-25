@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 (function () {
     //constructor
     function Question(question, answers, correctAnswer) {
@@ -49,4 +49,68 @@
         var score = 0;
     }
 
+}());
+
+*/
+
+// new example for this primer
+
+(function () {
+    'use strict';
+    // constaructor
+    function Question(question, answers, currentAnswer) {
+        this.question = question;
+        this.answers = answers;
+        this.currentAnswer = currentAnswer;
+    }
+    Question.prototype.showQuestionsInConsole = function () {
+        console.log(this.question);
+        for (var i = 0; i < this.answers.length; i++) {
+            console.log(i + ':' + ' - ' + this.answers[i]);
+        }
+    };
+    Question.prototype.checkAnswers = function (answer, callback) {
+        var score; // save score from callback fync
+        if (answer === this.currentAnswer) {
+            console.log('Correct Answer!');
+            score = callback(true); //doing increment and save in to score outside
+        } else {
+            console.log('Not correct answer...Try again');
+            score = callback(false); // returns score with not incrementing
+        }
+        this.showScore(score); // show score in to console. method will be available, because hi's storage in prototype
+    };
+    Question.prototype.showScore = function(score) {
+        console.log('Correct score is - ' + score);
+        console.log('------------------------------------------');
+    };
+
+    var qOne = new Question('What is the side of moon, do you like?', ['black', 'white'], 0);
+    var qTwo = new Question('When celebrate the New Year?', ['in the end of year', 'in the middle of year'], 0);
+    var qThree = new Question('What is the serial №1 in the World?', ['Scribe', 'mr.Robot', 'how I fuck your mom'], 0);
+    var questions = [qOne, qTwo, qThree];
+    var keepScore = score(); // save func with closure. if argument is true when score++ else returns
+
+    function score() {
+        var sc = 0;
+        return function(correct) {
+            if (correct) {
+                sc++;
+            }
+            return sc;
+        }
+    }
+
+    function nextQuestion() {
+        var rand = Math.floor(Math.random() * questions.length);
+
+        questions[rand].showQuestionsInConsole();
+        var answer = prompt('Your answer is: ', ''); // not convert at this point, becouse than we not to get the string with 'exit'
+
+        if (answer !== 'exit') {
+            questions[rand].checkAnswers(+answer, keepScore); // convert answer from string to a number and use callback fn
+            nextQuestion(); // re-call fn 
+        }
+    }
+    nextQuestion(); //call
 }());
