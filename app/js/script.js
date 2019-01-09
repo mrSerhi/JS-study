@@ -1,41 +1,89 @@
-"use strict";
-console.log('Hello world!');
-console.log(parseFloat(0.99 + 0.95 + '$').toFixed(2));
+ ; {
+     "use strict";
+     const date = new Date('1990, 3, 7');
+     let arr = ['Sally', 'Billy', 'Lusi', 'Bodun'];
+     let loose = ['Gaybe'];
+     let show = showUsers(loose, ['Stas', 'Romeo', 'Djulia']);
+     let army = furry();
+     // let bill = userMainData('Bill', 'Morun', 25, 'male', false);
+     let sum = operation(`2 + 2`);
 
-function char(str) {
-    return str ? str[0].toUpperCase() + str.slice(1) : '';
-}
-var str = 'Vasia';
-var secondStr = char('vasia');
-var empty = char();
-//console.log(str === secondStr);
-//console.log(empty === '');
+     // sayHay('Serhii', 'The big dial that what do you do');
+     // console.log(show);
+     // console.log( army[0]() );
+     // console.log( army[4]() );
+     // console.log( army[7]() );
 
-function checkSpam(str) {
-    var lowerStr = str.toLowerCase();
-    if (lowerStr.indexOf('viagra', 0) !== -1 || lowerStr.indexOf('xxx', 0) !== -1) {
-        return true;
-    }
-    return false;
-}
-var spamOne = 'To buy Viagra and watch tv XXxxx';
-var xxx = 'watch XXX video';
-var good = 'hey you, go with us and nave a fun!'
-console.log(checkSpam(good));
-// console.log(spamOne.indexOf('viagra'))
+     //console.log(`Hello ${bill.userName} ${bill.userSerName}. I see you're ${ bill.mariage ? bill.mariage : 'not mariage' }! You have a ${bill.usrAge} age old.`);
+     // console.log(sum)
 
-var hey = 'Now is time for our teem bealding and cooperation with big boss';
-var bobo = 'this is terrible how do you do at this?';
-var hoHo = 'How do you feel?';
-function truncate(str, maxlength) {
-    var diff;
 
-    if (str.length > maxlength) {
-        // diff = (maxlength - str.length) - 3;
-        return str.slice(0, maxlength - 3) + '...';
-    }
-    return str;
-}
-console.log(truncate(hey, 20));
-console.log(truncate(hoHo, 20));
-console.log(truncate(bobo, 20));
+     function sayHay(name, mess) {
+         let message;
+
+         if (name && isNaN(name)) {
+             message = name + ' your message has - ' + mess.length + ' characters';
+         }
+         return message;
+     }
+
+     function showUsers(arr, difault) {
+         let some = [];
+         for (let i = 0; i < arr.length; i++) {
+             if (arr.length > 3) {
+                 return arr;
+             } else {
+                 some.push(arr[i]);
+                 some = some.concat(difault);
+             }
+         }
+         return some;
+     }
+
+     function furry() {
+         let shooters = [];
+
+         // for (var i = 0; i < 10; i++) {
+         //     var shoot = function() {
+         //         // var shoot = i;
+         //         return function() {
+         //             //console.log(shoot)
+         // console.log(i)
+         //         };
+         //     }(i);
+         //     shooters.push(shoot);
+         // }
+
+         for (let i = 0; i < 10; i++) {
+             let shoot = function () {
+                 console.log(i);
+             };
+             shooters.push(shoot);
+         }
+
+         return shooters;
+     }
+
+     function userMainData(name, sername, age, gender, mariage) {
+         return {
+             userName: name,
+             userSerName: sername,
+             usrAge: age,
+             userGender: gender,
+             mariage: mariage
+         };
+     }
+
+     function operation(str) {
+         let _splitStr = str.split(' ');
+         let _methods = {
+             '+': function (a, b) {
+                 return a + b;
+             }
+         };
+
+         if (str.includes('+')) {
+             return _methods['+'](+_splitStr[0], +_splitStr[2]);
+         }
+     }
+ }
