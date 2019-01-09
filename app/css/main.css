@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blocks {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.blocks .block {
+    widows: 100%;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.block.block_green {
+    background: green;
+}
+
+.block.block_red {
+    background: red;
+}
+
+.block.block_yellow {
+    background: yellow;
+}

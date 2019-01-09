@@ -67,9 +67,4 @@
     function displayResults(arr, check) {
         console.log(`${check && check.toLowerCase() === 'even' ? 'Even numbers' : 'Odd numbers'} : ${arr}`);
     }
-
-
-
-
-
 }
