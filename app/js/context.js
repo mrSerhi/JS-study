@@ -1,4 +1,4 @@
-{
+;{
     'use strict';
 
     // ES5 
@@ -74,12 +74,5 @@
     igor.addFriends(['Anna', 'Kirill', 'Vova'])
 
     // console.log(igor);
-
-
-
-
-
-
-
 
 }

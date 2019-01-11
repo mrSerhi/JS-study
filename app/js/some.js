@@ -1,4 +1,4 @@
-{
+;{
     'use strict';
 
     let middle = [3, 4];
