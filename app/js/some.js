@@ -123,4 +123,40 @@
         return arr;
     }
 
+    // difault parameters for funtions
+
+    let multyF = mul();
+    let multyS = mul(5, 5);
+
+    // console.log(multyF); // 20
+    // console.log(multyS); // 25
+
+    function mul(a = 2, b = 10) {
+        return a * b;
+    }
+
+    function Animal(name, breed, food = [], paws = 4, tail = true, length = null, height = null) {
+        this.animalName = name;
+        this.bread = breed;
+        this.numOfPaws = paws;
+        this.favoriteFoor = food;
+        this.tail = tail;
+        this.animalLength = length;
+        this.animalHeight = height;
+    }
+
+    Animal.prototype.setAnimalLength = function (length, meter) {
+        return this.animalLength = length.toFixed(2) + meter;
+    };
+    Animal.prototype.setAnimalHeight = function (height, meter) {
+        return this.animalHeight = height.toFixed(2) + meter;
+    };
+
+
+    let chufChuf = new Animal('dog', 'Chao-Chao', ['dry food', 'chips']);
+    chufChuf.setAnimalLength(123, 'cm');
+    chufChuf.setAnimalHeight(45, 'cm');
+    let bonia = new Animal('cat', 'Scottish-freestyle', 'all', 4, true, '44cm', '32cm');
+
+
 }
