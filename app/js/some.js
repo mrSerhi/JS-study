@@ -58,20 +58,23 @@
     let names = ['Gelbert', 'Siusan', 'Ziaomi'];
     let copyOfNames = [...names];
 
+    /*
+        console.log(firstDepartment)
 
-    console.log(firstDepartment)
+        console.log(arr);
+        console.log(middle);
+        console.log(arrSpread);
 
-    console.log(arr);
-    console.log(middle);
-    console.log(arrSpread);
+        console.log(sumOFNums);
+        console.log(es5Sum);
 
-    console.log(sumOFNums);
-    console.log(es5Sum);
+        console.log(maxNumber);
+        console.log(maxNumberSpread);
 
-    console.log(maxNumber);
-    console.log(maxNumberSpread);
+        console.log(copyOfNames === names); // false
+    */
 
-    console.log(copyOfNames === names);
+
 
     function sum(a, b, c) {
         return a + b + c;
@@ -79,5 +82,45 @@
 
 
 
+    // Rest paramaters
+
+    let min = maxNumbers(10, 5, 10, 12, 15);
+    let max = minNumbers(6, 2, 4, 8, 10, 1);
+    let ages = returnFullAge(1990, 2007, 2015, 2003, 1989);
+    let checkAges = checkOnFullAge(21, 1990, 2007, 2015, 2003, 1989);
+    /*
+    console.log(min);
+    console.log(max);
+    console.log(ages);
+    console.dir(checkAges)
+    */
+    function maxNumbers(min) {
+        let argArr = Array.prototype.slice.call(arguments, 1);
+        return argArr.map(el => el >= min);
+    }
+
+    function minNumbers(max, ...arg) {
+        return arg.map(el => el <= max);
+    }
+
+    function returnFullAge(...years) {
+        let now = new Date().getFullYear();
+
+        return years.map(el => now - el);
+    }
+
+    function checkOnFullAge(fullAge, ...years) {
+        let now = new Date().getFullYear();
+        let arr = [];
+        years.forEach((el, index) => {
+            let age = now - el;
+            // console.log(`User with ${index + 1} index - ${age >= fullAge ? 'have full age' : 'not has full age'}`);
+            return arr.push({
+                index: index,
+                fullAge: age >= fullAge
+            });
+        });
+        return arr;
+    }
 
 }
