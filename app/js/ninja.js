@@ -154,41 +154,63 @@ const sw = new Player();
 function WatchPlayer() {
   let startTime = null,
     endTime = null,
-    state = false,
+    state,
     duration = 0;
 
-  this.start = function() {
-    if (state) {
-      throw new Error("Aplication has started!");
-    }
-    state = true;
-    startTime = new Date().getTime(); //ms
-  };
-
-  this.stop = function() {
-    if (!state) {
-      throw new Error("Aplication not started");
-    }
-    state = false;
-    endTime = new Date().getTime(); // ms
-
-    duration += (endTime - startTime) / 1000;
-  };
-
-  this.reset = function() {
-    startTime = endTime = null;
-    state = false;
-    duration = 0;
-  };
-
-  Object.defineProperty(this, "duration", {
-    get: function() {
-      return parseFloat(duration.toFixed(2));
+  Object.defineProperties(this, {
+    startTime: {
+      get: function() {
+        return startTime;
+      }
+    },
+    endTime: {
+      get: function() {
+        return endTime;
+      }
+    },
+    state: {
+      get: function() {
+        return state;
+      }
+    },
+    duration: {
+      get: function() {
+        return parseFloat(duration.toFixed(2));
+      }
     }
   });
 }
+
+WatchPlayer.prototype.start = function() {
+  if (this.state) {
+    throw new Error("Aplication has started!");
+  }
+  this.state = true;
+  this.startTime = new Date().getTime(); //ms
+};
+
+WatchPlayer.prototype.stop = function() {
+  if (!this.state) {
+    throw new Error("Aplication not started");
+  }
+  this.state = false;
+  this.endTime = new Date().getTime(); // ms
+
+  this.duration += (endTime - startTime) / 1000;
+};
+
+WatchPlayer.prototype.reset = function() {
+  this.startTime = this.endTime = null;
+  this.state = false;
+  this.duration = 0;
+};
+
 const vv = new WatchPlayer();
-// vv.start();
-// vv.stop();
-// vv.duration;
-// vv.reset();
+
+const ss = { name: "David" };
+
+Object.defineProperty(ss, "name", {
+  writable: false,
+  enumerable: false,
+  configurable: false
+});
