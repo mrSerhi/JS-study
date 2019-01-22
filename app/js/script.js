@@ -1,41 +1,112 @@
 "use strict";
-console.log('Hello world!');
-console.log(parseFloat(0.99 + 0.95 + '$').toFixed(2));
 
-function char(str) {
-    return str ? str[0].toUpperCase() + str.slice(1) : '';
+function sayHi() {
+  setTimeout(() => {
+    console.log("Async");
+  }, 2000);
 }
-var str = 'Vasia';
-var secondStr = char('vasia');
-var empty = char();
-//console.log(str === secondStr);
-//console.log(empty === '');
 
-function checkSpam(str) {
-    var lowerStr = str.toLowerCase();
-    if (lowerStr.indexOf('viagra', 0) !== -1 || lowerStr.indexOf('xxx', 0) !== -1) {
-        return true;
-    }
-    return false;
+function init() {
+  //   console.log("Init function");
+  setTimeout(() => {
+    console.log("Init function");
+  }, 1000);
 }
-var spamOne = 'To buy Viagra and watch tv XXxxx';
-var xxx = 'watch XXX video';
-var good = 'hey you, go with us and nave a fun!'
-console.log(checkSpam(good));
-// console.log(spamOne.indexOf('viagra'))
 
-var hey = 'Now is time for our teem bealding and cooperation with big boss';
-var bobo = 'this is terrible how do you do at this?';
-var hoHo = 'How do you feel?';
-function truncate(str, maxlength) {
-    var diff;
-
-    if (str.length > maxlength) {
-        // diff = (maxlength - str.length) - 3;
-        return str.slice(0, maxlength - 3) + '...';
-    }
-    return str;
+function doIt() {
+  console.log("Do IT...");
 }
-console.log(truncate(hey, 20));
-console.log(truncate(hoHo, 20));
-console.log(truncate(bobo, 20));
+
+function inProcess() {
+  init();
+  sayHi();
+  doIt();
+}
+
+// inProcess();
+
+// callback hell (example)
+
+// recipe();
+
+function recipe() {
+  // imagine, we receives data from server
+  setTimeout(() => {
+    const IDs = [122, 144, 44, 155, 200, 201];
+    console.dir(IDs);
+
+    // tries to receives data again
+    setTimeout(
+      id => {
+        const recipe = {
+          title: "tomato pizza italyno",
+          cockName: "Domingo",
+          id: id[2]
+        };
+        console.log(`${recipe.cockName}^${recipe.id} cooked ${recipe.title}`);
+
+        // tries to receives data again
+        setTimeout(
+          id => {
+            const recipe = {
+              title: "big testy burger",
+              cockName: "Djoan",
+              id: id[4]
+            };
+
+            console.log(
+              `${recipe.cockName}^${recipe.id} cooked ${recipe.title}`
+            );
+
+            // tries to receives data again
+            setTimeout(
+              id => {
+                const recipe = {
+                  title: "spaggety",
+                  cockName: "Bill",
+                  id: id[id.length - 1]
+                };
+
+                console.log(
+                  `${recipe.cockName}^${recipe.id} cooked ${recipe.title}`
+                );
+
+                // update IDs
+                setTimeout(() => {
+                  const updIds = [1002, 456, 899, 900, 512];
+                  updIds.forEach(el => IDs.push(el));
+
+                  console.dir(IDs);
+                  console.log(`IDs was update`);
+
+                  // tries to receives data again
+                  setTimeout(
+                    id => {
+                      const recipe = {
+                        title: "mind of elephant",
+                        cockName: "Cocorubba",
+                        id: id[6]
+                      };
+
+                      console.log(
+                        `${recipe.cockName}^${recipe.id} cooked ${recipe.title}`
+                      );
+                    },
+                    1500,
+                    IDs
+                  );
+                }, 1500);
+              },
+              1500,
+              IDs
+            );
+          },
+          1500,
+          IDs
+        );
+      },
+      1500,
+      IDs
+    );
+  }, 1500);
+}
