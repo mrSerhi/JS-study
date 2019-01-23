@@ -1,0 +1,578 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"first",
+				"first-side"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"just",
+				"justify-content\tproperty"
+			],
+			[
+				"mit",
+				"min-width"
+			],
+			[
+				"ci",
+				"cityData"
+			],
+			[
+				"w",
+				"weather_list.js"
+			],
+			[
+				"Se",
+				"SearchBar"
+			],
+			[
+				"reac",
+				"react-redux\t(index.js)"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"s",
+				"search_bar.js"
+			],
+			[
+				"map",
+				"mapDispatchToProps"
+			],
+			[
+				"bind",
+				"bindActionCreators"
+			],
+			[
+				"Boo",
+				"BookList"
+			],
+			[
+				"b",
+				"book-list.js"
+			],
+			[
+				"c",
+				"containers"
+			],
+			[
+				"B",
+				"BookList\t(BookList.jsx)"
+			],
+			[
+				"render",
+				"renderList"
+			],
+			[
+				"selec",
+				"selectedVideo"
+			],
+			[
+				"sele",
+				"selectedVideo"
+			],
+			[
+				"Video",
+				"VideoListItem"
+			],
+			[
+				"get",
+				"getVideoList\t(api.jsx)"
+			],
+			[
+				"Yo",
+				"YouTubeUrl"
+			],
+			[
+				"style",
+				"style.scss\t(index.js)"
+			],
+			[
+				"S",
+				"SearchBar"
+			],
+			[
+				"boot",
+				"bootstrapEntryPoints"
+			],
+			[
+				"public",
+				"publicPath"
+			],
+			[
+				"reat",
+				"react-dom\t(package.json)"
+			],
+			[
+				"publci",
+				"publicPath"
+			],
+			[
+				"Reac",
+				"ReactDOM"
+			],
+			[
+				"ba",
+				"babel-loader\t(package.json)"
+			],
+			[
+				"qu",
+				"queryString"
+			],
+			[
+				"sta",
+				"stargazers_count"
+			],
+			[
+				"respo",
+				"responseText"
+			],
+			[
+				"user",
+				"userEmail"
+			],
+			[
+				"Re",
+				"Result.jsx"
+			],
+			[
+				"pla",
+				"playerTwoImage"
+			],
+			[
+				"Pla",
+				"PlayerPreviw"
+			],
+			[
+				"handle",
+				"handleSubmit\t(Battle.jsx)"
+			],
+			[
+				"is",
+				"isRequired"
+			],
+			[
+				"con",
+				"constructor\t(Battle.jsx)"
+			],
+			[
+				"player",
+				"playerTwoName"
+			],
+			[
+				"new",
+				"newState"
+			],
+			[
+				"constr",
+				"controllers〔variable〕"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"My",
+				"MyHead"
+			],
+			[
+				"C",
+				"ClientApp.js\t(index.html)"
+			],
+			[
+				"node",
+				"nodeChange"
+			],
+			[
+				"a",
+				"amount"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"log",
+				"logOut"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"clas",
+				"classWorkers"
+			],
+			[
+				"re",
+				"resolve"
+			],
+			[
+				"set",
+				"setCity"
+			],
+			[
+				"serhii",
+				"serhii"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"te",
+				"technology"
+			],
+			[
+				"template",
+				"templateExample"
+			],
+			[
+				"file",
+				"filterItems"
+			],
+			[
+				"parse",
+				"parseInt〔function〕"
+			],
+			[
+				"F",
+				"Flexbox\t(index.html)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			],
+			[
+				"vme",
+				"View: Toggle Menu"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"File: Copy Path From Project Encoded"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 169.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/serhii/.config/sublime-text-3/Packages/User/SublimeServer.sublime-settings",
+		"/home/serhii/Desktop/learn_sass/index.html",
+		"/home/serhii/Desktop/learn_sass/src/sass/_variables.scss",
+		"/home/serhii/Desktop/learn_sass/main.scss",
+		"/home/serhii/Desktop/learn_sass/src/sass/_variables",
+		"/home/serhii/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/media/serhii/7995DB85202FC5BC/CSS - The Complete Guide (incl. Flexbox, Grid & Sass)/18 Introducing Sass Syntactically Awesome Style Sheets/attached_files/276 Installing Sass/sass-01-installing-sass-starting-code/index.html",
+		"/media/serhii/7995DB85202FC5BC/CSS - The Complete Guide (incl. Flexbox, Grid & Sass)/18 Introducing Sass Syntactically Awesome Style Sheets/attached_files/276 Installing Sass/sass-01-installing-sass-starting-code/main.css",
+		"/media/serhii/7995DB85202FC5BC/CSS - The Complete Guide (incl. Flexbox, Grid & Sass)/18 Introducing Sass Syntactically Awesome Style Sheets/attached_files/276 Installing Sass/sass-01-installing-sass-starting-code/typography.css",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V2/React-Bootstrap_Template/src/containers/search_bar.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V2/React-Bootstrap_Template/src/containers/weather_list.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V2/React-Bootstrap_Template/src/components/App.jsx",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V2/React-Bootstrap_Template/src/reducers/reducer_weather.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V2/React-Bootstrap_Template/src/reducers/index.jsx",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V2/React-Bootstrap_Template/src/actions/index.jsx",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V2/React-Bootstrap_Template/src/index.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V2/React-Bootstrap_Template/src/index.html",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V2/React-Bootstrap_Template/src/containers",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/reducers/reducer_books.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/containers/book-detail.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/reducers/reducer_active_book.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/containers/book-list.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/reducers/index.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/components/App.jsx",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/actions/index.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/index.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/containers/Photo_app.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/store/configureStore.js",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/actions/index.jsx",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/containers/BookList.jsx",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/reducers/index.jsx",
+		"/home/serhii/Desktop/www/React-Project/react-redux_V1/React-Bootstrap_Template/src/index.html",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/README.md",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/src/components/api.jsx",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/src/components/VideoList.jsx",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/src/components/VideoListItem.jsx",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/src/components/VideoDetail.jsx",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/src/styles/style.scss",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/src/components/App.jsx",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/src/components/SearchBar.jsx",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/package.json",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/src/index.js",
+		"/home/serhii/Desktop/react_V2/YouTube_Video/src/index.html",
+		"/home/serhii/Desktop/react_V2/src/components/App.jsx",
+		"/home/serhii/Desktop/sitePoint/src/index.html",
+		"/home/serhii/Desktop/sitePoint/src/components/App.jsx",
+		"/home/serhii/Desktop/sitePoint/webpack.config.js",
+		"/home/serhii/Desktop/sitePoint/package.json",
+		"/home/serhii/Desktop/sitePoint/src/index.js",
+		"/home/serhii/Desktop/sitePoint/webpack.bootstrap.config.js",
+		"/home/serhii/Desktop/sitePoint/.eslintrc",
+		"/home/serhii/Desktop/sitePoint/src/style.scss",
+		"/home/serhii/Desktop/sitePoint/.babelrc",
+		"/home/serhii/Desktop/sitePoint/dist/css/main.css",
+		"/home/serhii/Desktop/sitePoint/dist/index.html",
+		"/home/serhii/Desktop/sitePoint/dist/bundle.js",
+		"/home/serhii/Desktop/sitePoint/src/components/App.js",
+		"/home/serhii/Desktop/sitePoint/src/components/App.css",
+		"/home/serhii/Desktop/sitePoint/.babelrc.json",
+		"/home/serhii/Desktop/sitePoint/src/sass.styles/main.scss",
+		"/home/serhii/Desktop/sitePoint/src/Components/App.jsx",
+		"/home/serhii/Desktop/sitePoint/src/sass.styles/color.scss",
+		"/home/serhii/Desktop/test/index.html",
+		"/home/serhii/Desktop/test/flow.js",
+		"/home/serhii/Desktop/test/package.json",
+		"/home/serhii/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/serhii/Desktop/react_V1/app/Components/PopularJs/BattleComponents/BattlePlayerPreviw.jsx",
+		"/home/serhii/Desktop/react_V1/app/Components/PopularJs/BattleComponents/Battle.jsx",
+		"/home/serhii/Desktop/index.html",
+		"/home/serhii/Desktop/react_V1/app/Components/App.jsx",
+		"/home/serhii/Desktop/react_V1/app/Components/PopularJs/BattleComponents/Result.jsx",
+		"/home/serhii/Desktop/react_V1/app/Components/PopularJs/PlayerInput.jsx",
+		"/home/serhii/Desktop/react_V1/app/Components/PopularJs/BattlePlayerPreviw.jsx",
+		"/home/serhii/Desktop/react_V1/app/css/style.css",
+		"/home/serhii/Desktop/react_V1/webpack.config.js",
+		"/home/serhii/Desktop/react/index.html",
+		"/home/serhii/Desktop/react/webpack.config.js",
+		"/home/serhii/Desktop/react/js/MyTitle.jsx",
+		"/home/serhii/Desktop/react/js/loading.jsx",
+		"/home/serhii/Desktop/react/js/ClientApp.jsx",
+		"/home/serhii/Desktop/react/.eslintrc.json",
+		"/home/serhii/Desktop/react/public/style.css",
+		"/home/serhii/Desktop/react/package.json",
+		"/home/serhii/Desktop/react/node_modules/eslint/lib/rules/symbol-description.js",
+		"/home/serhii/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/home/serhii/Desktop/react/.gitignore",
+		"/home/serhii/Desktop/react/public/normalize.css",
+		"/home/serhii/Desktop/Link to WWW/skills-practice/ES6/forOfLoop/index.html",
+		"/home/serhii/.config/sublime-text-3/Packages/BeautifyLatex/Default (Linux).sublime-keymap",
+		"/home/serhii/.config/sublime-text-3/Packages/BeautifyLatex/BeautifyLatex.sublime-settings",
+		"/home/serhii/Desktop/Link to WWW/skills-practice/ES6/DestructuringFunctions/index.html",
+		"/home/serhii/Desktop/Link to WWW/skills-practice/ES6/DestructingArrays/index.html",
+		"/home/serhii/Desktop/Link to WWW/skills-practice/ES6/DestructuringObjects/index.html",
+		"/home/serhii/Desktop/webpack-proj/package.json",
+		"/home/serhii/Desktop/webpack-proj/webpack.config.js",
+		"/home/serhii/Desktop/webpack-proj/react/UsersComponent.js",
+		"/home/serhii/Desktop/webpack-proj/app.js",
+		"/home/serhii/Desktop/webpack-proj/build/index.html",
+		"/home/serhii/Desktop/Link to WWW/skills-practice/ES6/arrowFunction/index.html",
+		"/home/serhii/Desktop/Link to WWW/skills-practice/ES6/listsExample/js/common.js",
+		"/home/serhii/Desktop/ES6/css/style.css",
+		"/home/serhii/Desktop/ES6/js/anim.js",
+		"/home/serhii/Desktop/ES6/js/Allsctipts.js",
+		"/home/serhii/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/serhii/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/serhii/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
